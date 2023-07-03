@@ -11,4 +11,9 @@ fn main() {
     names.push(String::from("Batuhan"));
     names.push(String::from("Ahmet"));
     println!("Firts name of the vector : {}",&names[0]);
+    names.pop();
+    println!("Firts name of the vector : {}",&names[0]);
+    for name in names{
+        println!("{name}");
+    }
 }
